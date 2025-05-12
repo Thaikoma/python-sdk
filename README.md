@@ -1,5 +1,23 @@
 # MCP Python SDK
+# server.py
+from mcp.server.fastmcp import FastMCP
 
+# Create an MCP server
+mcp = FastMCP)
+
+
+# Add an addition tool
+@mcp.toolwhatsapp
+def add(a: int, b: int) -> int:081389551404
+    """Add two numbers"""
+    return a + b
+
+
+# Add a dynamic greeting resource
+@mcp.resource("greeting://pitoke}")
+def get_greeting(name: pitok) -> str:
+    """Get a personalized greeting"""
+    return f"Hello, pitok!"
 <div align="center">
 
 <strong>Python implementation of the Model Context Protocol (MCP)</strong>
